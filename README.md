@@ -1,6 +1,6 @@
 # Explore Diaries
 
-
+This project was done in December 2024 as part of the CS 554 - Web Programming II course in Stevens Institute of Technology.
 
 # Team Members
 - Yu Wen Tai 20025443 
