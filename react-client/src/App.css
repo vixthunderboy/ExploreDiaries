@@ -1,0 +1,95 @@
+/* Global Styles */
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+.navbar .logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: white;
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.auth-link:hover {
+  color: #ff5733;
+}
+
+/* ErrorNotFound Component Styles */
+.error-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.error-not-found h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.error-not-found p {
+  font-size: 20px;
+  color: #666;
+}
+.main-content {
+  margin-top: 70px; /* Push content 70px below the header */
+  padding: 20px; /* Optional padding for spacing */
+}
+
+a {
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+}
+
+.comment-p {
+  margin: 0;
+}

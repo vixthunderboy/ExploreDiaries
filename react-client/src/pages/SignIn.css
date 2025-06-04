@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background-color: #f9fafb;
+  width: 100%;
+  margin-top: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  min-height: calc(100vh - 70px);
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+input {
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  color: #1f2937;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #2563eb;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #d1a277;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #9b7654;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link-primary {
+  color: #2563eb;
+}
+
+.link-primary:hover {
+  text-decoration: underline;
+}
+
+.text-muted {
+  color: #6b7280;
+}
+
+.text-large {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: 0.875rem;
+}
+
+.card p,
+.card a {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.card div {
+  margin-bottom: 1rem;
+}

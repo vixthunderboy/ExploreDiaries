@@ -1,0 +1,136 @@
+/* Post Page Container */
+.post-page {
+  width: 80%;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  top: 80px;
+}
+
+/* Post Title */
+.post-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Post Image */
+.post-page img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Post Content */
+.post-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Location and Category */
+.post-page p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.post-page p {
+  margin-bottom: 15px;
+}
+
+.post-page .location,
+.post-page .category {
+  color: #007bff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Action Buttons */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+  height: 50px;
+}
+
+.edit-post-btn,
+.back-home-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #d1a277;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-post-btn:hover,
+.back-home-btn:hover {
+  background-color: #9b7654;
+}
+
+/* Position the Sign In/Sign Up buttons */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  width: 200px;
+}
+
+.image-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the image */
+}
+
+.slider-image {
+  width: 80%; /* Adjust the width as needed */
+  object-fit: cover;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure the buttons are above the image */
+  width: 30px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
